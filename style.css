@@ -1,0 +1,39 @@
+body {
+   
+}
+
+:root {
+    --grid-rows: 0;
+    --grid-cols: 0;
+}
+
+
+.container {
+    width: 600px;
+    height:600px;
+    margin: 0 auto;
+    padding:0;
+    border:5px solid black;
+    display:grid;
+    grid-template-rows: repeat(var(--grid-rows),1fr);
+    grid-template-columns: repeat(var(--grid-cols),1fr) ;
+}
+
+.grid-item {
+    border:1px solid black;
+
+    text-align: center;
+}
+
+.container div {
+   transition:.4s;
+}
+
+button {
+    transition:0.5s;
+    opacity:0.5;
+}
+
+button:hover {
+    opacity:1;
+}
