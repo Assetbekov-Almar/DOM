@@ -1,1 +1,1 @@
-[a link](https://github.com/Assetbekov-Almar/DOM/blob/master/index.html)
+Promises were used just for the practical purpose.
